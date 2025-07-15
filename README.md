@@ -1,4 +1,4 @@
-# Recipe Finder App
+# Recipe app with TO-DO list
 
 This is a full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to explore and follow recipes step-by-step. The app enables users to search, filter, and view detailed recipes based on recipe name, ingredients, and difficulty.
 
@@ -24,7 +24,42 @@ Before running the application, make sure you have the following installed:
 
 ### Clone the Repository
 To clone this repository, run the following commands in your terminal:
+- git clone https://github.com/asitha-bandara/recipe-todo-task.git
+- cd recipe-todo-task
 
-```bash
-git clone https://github.com/asitha-bandara/recipe-todo-task.git
-cd recipe-todo-task
+###Running the Application:
+  Run the server (Backend):
+   - cd server
+   - npm run server
+    
+  Run the client (Frontend):
+   - cd client
+   - npm run dev
+
+  Open browser and navigate to:
+   - [http://localhost:5173/](http://localhost:5173/)
+
+
+###API Endpoints:
+  Here are some of the key API routes used by the app:
+    - GET /api/recipe/get-recipes - Fetch all recipes.
+    - GET /api/recipes/:id - Fetch a specific recipe by its ID.
+    - POST /api/recipes/add-recipe - Add a new recipe (Admin only).
+    - PUT /api/edit-recipe/:id - Edit a recipe (Admin only).
+
+###Features Demo:
+ - Search Bar: Users can type in a recipe name to search.
+ - Filter by Ingredients: Select specific ingredients to narrow down search results.
+ - Filter by Difficulty: Recipes can be filtered by their difficulty level (e.g., Easy, Medium, Hard).
+ - Detailed Recipe View: Clicking on a recipe gives you a detailed view, including ingredients and steps.
+
+###Future Improvements:
+  - User Features: Allow users to save their favorite recipes and recommend recipes to them.
+  - User Reviews and Ratings: Allow users to rate and review recipes.
+  - Add more filters: Allow users to filter by cooking time, dietary preferences (vegan, gluten-free, etc.), and more.
+  - Internationalization: Translate the app to other languages.
+
+###Contact:
+    For any questions or suggestions, please reach out to:
+      - Email: asithaic@gmail.com
+      - GitHub: asitha-bandara
