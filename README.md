@@ -39,6 +39,14 @@ To clone this repository, run the following commands in your terminal:
   Open browser and navigate to:
    - [http://localhost:5173/](http://localhost:5173/)
 
+### Account Description:
+ - There are two different account types (Admin, User).
+ - As of now only one admin can exhist, no more can be added.
+ - New users can signup as "User".
+
+### Admin Login:
+ - Username: admin@admin.com
+ - Password: adminadmin
 
 ### API Endpoints:
   Here are some of the key API routes used by the app:
@@ -58,6 +66,7 @@ To clone this repository, run the following commands in your terminal:
  - User Reviews and Ratings: Allow users to rate and review recipes.
  - Add more filters: Allow users to filter by cooking time, dietary preferences (vegan, gluten-free, etc.), and more.
  - Internationalization: Translate the app to other languages.
+ - Ability to add more admin accounts.
 
 ### Contact:
   For any questions or suggestions, please reach out to:
