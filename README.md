@@ -42,9 +42,9 @@ To clone this repository, run the following commands in your terminal:
 
 ### API Endpoints:
   Here are some of the key API routes used by the app:
-    - GET /api/recipe/get-recipes - Fetch all recipes.
-    - GET /api/recipes/:id - Fetch a specific recipe by its ID.
-    - POST /api/recipes/add-recipe - Add a new recipe (Admin only).
+    - GET /api/recipe/get-recipes - Fetch all recipes.\
+    - GET /api/recipes/:id - Fetch a specific recipe by its ID.\
+    - POST /api/recipes/add-recipe - Add a new recipe (Admin only).\
     - PUT /api/edit-recipe/:id - Edit a recipe (Admin only).
 
 ### Features Demo:
