@@ -61,5 +61,5 @@ To clone this repository, run the following commands in your terminal:
 
 ### Contact:
   For any questions or suggestions, please reach out to:
-      - Email: asithaic@gmail.com
-      - GitHub: asitha-bandara
+    - Email: asithaic@gmail.com
+    - GitHub: asitha-bandara
