@@ -42,10 +42,10 @@ To clone this repository, run the following commands in your terminal:
 
 ### API Endpoints:
   Here are some of the key API routes used by the app:
-    - GET /api/recipe/get-recipes - Fetch all recipes.\
-    - GET /api/recipes/:id - Fetch a specific recipe by its ID.\
-    - POST /api/recipes/add-recipe - Add a new recipe (Admin only).\
-    - PUT /api/edit-recipe/:id - Edit a recipe (Admin only).
+ - GET /api/recipe/get-recipes - Fetch all recipes.
+ - GET /api/recipes/:id - Fetch a specific recipe by its ID.
+ - POST /api/recipes/add-recipe - Add a new recipe (Admin only).
+ - PUT /api/edit-recipe/:id - Edit a recipe (Admin only).
 
 ### Features Demo:
  - Search Bar: Users can type in a recipe name to search.
@@ -54,12 +54,12 @@ To clone this repository, run the following commands in your terminal:
  - Detailed Recipe View: Clicking on a recipe gives you a detailed view, including ingredients and steps.
 
 ### Future Improvements:
-  - User Features: Allow users to save their favorite recipes and recommend recipes to them.
-  - User Reviews and Ratings: Allow users to rate and review recipes.
-  - Add more filters: Allow users to filter by cooking time, dietary preferences (vegan, gluten-free, etc.), and more.
-  - Internationalization: Translate the app to other languages.
+ - User Features: Allow users to save their favorite recipes and recommend recipes to them.
+ - User Reviews and Ratings: Allow users to rate and review recipes.
+ - Add more filters: Allow users to filter by cooking time, dietary preferences (vegan, gluten-free, etc.), and more.
+ - Internationalization: Translate the app to other languages.
 
 ### Contact:
   For any questions or suggestions, please reach out to:
-    - Email: asithaic@gmail.com
-    - GitHub: asitha-bandara
+ - Email: asithaic@gmail.com
+ - GitHub: asitha-bandara
