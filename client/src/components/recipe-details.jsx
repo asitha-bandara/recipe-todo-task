@@ -106,7 +106,6 @@ const RecipeDetail = () => {
     setCheckedIngredients((prev) => ({ ...prev, [id]: !prev[id] }));
   };
 
-  // toggleStep unchecks this and all next steps if unchecking, otherwise just checks this step
   const toggleStep = (idx) => {
     setCheckedSteps((prev) => {
       const newChecked = { ...prev };
@@ -131,7 +130,6 @@ const RecipeDetail = () => {
   return (
     <>
       <Navbar />
-      {/* Full page background gradient */}
       <Box
         position="fixed"
         top={0}
@@ -181,7 +179,6 @@ const RecipeDetail = () => {
           </Text>
         </Box>
 
-        {/* Ingredients Section */}
         <Box
           p={5}
           mb={8}
@@ -231,7 +228,6 @@ const RecipeDetail = () => {
           </Flex>
         </Box>
 
-        {/* Instructions Section */}
         <Box
           p={5}
           border="1px solid"
@@ -305,7 +301,7 @@ const RecipeDetail = () => {
                     flex="1"
                     fontWeight="medium"
                     isDisabled={!prevStepChecked}
-                    pointerEvents="none" // disables pointer events on checkbox to allow HStack click
+                    pointerEvents="none"
                   >
                     <Text fontSize="xs">{step}</Text>
                   </Checkbox>
@@ -315,7 +311,6 @@ const RecipeDetail = () => {
           </VStack>
         </Box>
 
-        {/* Completion Alert */}
         {allStepsChecked && (
           <Alert
             status="success"
@@ -332,7 +327,8 @@ const RecipeDetail = () => {
             <Box>
               <AlertTitle fontSize="md">Congratulations!</AlertTitle>
               <AlertDescription fontSize="sm">
-                You&apos;ve completed all the steps for this recipe! Enjoy your meal! 🎉
+                You&apos;ve completed all the steps for this recipe! Enjoy your
+                meal! 🎉
               </AlertDescription>
             </Box>
           </Alert>

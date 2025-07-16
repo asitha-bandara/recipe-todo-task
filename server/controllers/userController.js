@@ -24,7 +24,7 @@ exports.addUser = async (req, res) => {
     });
   } catch (err) {
     let errorMessage;
-    let statusCode = 500; // default error status
+    let statusCode = 500;
 
     if (err.code === 11000) {
       const duplicateField = Object.keys(err.keyPattern)[0]; // Extracts 'email' or 'nic'

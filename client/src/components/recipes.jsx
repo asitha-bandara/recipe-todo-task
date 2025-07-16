@@ -136,7 +136,6 @@ const Recipes = () => {
     }),
   ];
 
-  // Filter functions
   const filterByTitle = (row, columnId, filterValue) => {
     if (!filterValue) return true;
     return row

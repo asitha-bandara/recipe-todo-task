@@ -367,7 +367,6 @@ const ViewRecipe = () => {
         )}
       </Box>
 
-      {/* Delete Confirmation Modal */}
       <AlertDialog
         isOpen={isDeleteOpen}
         leastDestructiveRef={cancelRef}

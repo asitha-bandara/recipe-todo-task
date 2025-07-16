@@ -117,7 +117,6 @@ function Signup() {
         )}
 
         <form onSubmit={handleSubmit}>
-          {/* Use SimpleGrid for two columns */}
           <SimpleGrid
             columns={{ base: 1, md: 2 }}
             spacing={4}
