@@ -27,7 +27,7 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application that al
 
 ### Prerequisites
 Before running the application, make sure you have the following installed:
-- **Node.js** and **npm**. You can download them from [here](https://nodejs.org/en).
+- **Node.js** and **npm**. You can download them from (Node version: v22.14.0) [here](https://nodejs.org/en).
 - A browser capable of running JavaScript.
 
 ### Clone the Repository
