@@ -15,6 +15,14 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application that al
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens) for user authentication and session management.
 
+## Authentication and Authoorization Middleware
+- An auth middleware is set up in server side.
+- When getting api requests it checks for token and user role. If neither exhists the request is denied.
+
+## Authwatcher
+- When navigating inside the app it checks if the user has a valid/non-expired token.
+- If the token is not valid the user is forwarded to the landing page.
+
 ## Getting Started
 
 ### Prerequisites
